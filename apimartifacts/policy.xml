@@ -9,9 +9,12 @@
     - Policies are applied in the order of their appearance, from the top down.
 -->
 <policies>
-	<inbound />
+	<inbound>
+		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" />
+	</inbound>
 	<backend>
 		<forward-request />
 	</backend>
 	<outbound />
+	<on-error />
 </policies>
