@@ -5,7 +5,14 @@ info:
   version: '1.0'
 servers:
   - url: https://apim-hs0416-dev.azure-api.net/testapi
-paths: { }
+paths:
+  /test:
+    get:
+      summary: test
+      operationId: test
+      responses:
+        '200':
+          description: 
 components:
   securitySchemes:
     apiKeyHeader:
