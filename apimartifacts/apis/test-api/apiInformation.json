@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "displayName": "test-api",
+    "isCurrent": true,
+    "path": "testapi",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://testapi.dev.com",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}
