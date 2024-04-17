@@ -3,3 +3,4 @@ apis:
   - name: test-api
     properties:
       displayName: "test-api-updated"
+      serviceUrl: "https://test.prod.com"
