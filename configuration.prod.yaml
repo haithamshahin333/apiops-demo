@@ -1,5 +1,4 @@
 apimServiceName: apim-hs0416-prod
 apis:
   - name: test-api
-    properties:
-      description: "test change"
+    description: "test change"
