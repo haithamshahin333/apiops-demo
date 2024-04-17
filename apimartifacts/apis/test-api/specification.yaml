@@ -9,7 +9,15 @@ paths:
   /test:
     get:
       summary: test
+      description: test
       operationId: test
+      responses:
+        '200':
+          description: ''
+  /demo-op:
+    get:
+      summary: demo-operation
+      operationId: demo-operation
       responses:
         '200':
           description: 
