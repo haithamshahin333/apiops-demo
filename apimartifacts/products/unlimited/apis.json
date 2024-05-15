@@ -1,5 +1,8 @@
 [
   {
+    "name": "blob-storage"
+  },
+  {
     "name": "echo-api"
   }
 ]
