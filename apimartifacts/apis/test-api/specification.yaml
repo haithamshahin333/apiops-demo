@@ -4,7 +4,7 @@ info:
   description: ''
   version: '1.0'
 servers:
-  - url: https://apim-hs0416-dev.azure-api.net/testapi
+  - url: https://apim-demo-hs0507.azure-api.net/testapi
 paths:
   /test:
     get:
@@ -17,10 +17,11 @@ paths:
   /demo-op:
     get:
       summary: demo-operation
+      description: demo-operation
       operationId: demo-operation
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
