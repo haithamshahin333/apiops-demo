@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "apiRevision": "1",
+    "authenticationSettings": {
+      "oAuth2": {
+        "authorizationServerId": "aad-oauth",
+        "scope": "api://deb3bd54-d384-496b-b2d6-9b4ac69fad87/Call.Backend"
+      }
+    },
+    "description": "",
+    "displayName": "blob-storage",
+    "isCurrent": true,
+    "path": "",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://stghs0507.blob.core.windows.net",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": false
+  }
+}

@@ -1,0 +1,39 @@
+openapi: 3.0.1
+info:
+  title: blob-storage
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apim-demo-hs0507.azure-api.net
+paths:
+  '/{container}/{blob}':
+    put:
+      summary: PUT Blob
+      operationId: put-blob
+      parameters:
+        - name: container
+          in: path
+          required: true
+          schema:
+            type: ''
+        - name: blob
+          in: path
+          required: true
+          schema:
+            type: ''
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
